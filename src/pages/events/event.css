@@ -1,0 +1,27 @@
+.eventPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.ev-title {
+  color: rgba(20, 100, 131, 0.489);
+  margin-top: 5px;
+  margin-bottom: 20px;
+  @media only screen and (max-width: 480px) {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}
+
+hr {
+  color: rgba(55, 173, 219, 0.489);
+  margin-bottom: 20px;
+}
+
+.event-type {
+  width: 93vw;
+  text-align: center;
+}
